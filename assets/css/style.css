@@ -35,6 +35,10 @@ body {
     z-index: 200;
 }
 
+.navbar.scrolled {
+    background-color: black;
+}
+
 .section-title {
     margin-top: 100px;
 }
@@ -65,7 +69,11 @@ body {
 }
 
 .def {
-    width: 312px;
+    width: 320px;
+}
+
+.def1 {
+    width: 392px;
 }
 
 .check::before {
@@ -88,9 +96,18 @@ body {
     border-radius: 50%;
 }
 
-.card {
+.card, .lef {
     margin-left: 20px;
 }
+
+.btn1 {
+    width: 150px;
+}
+
+.btnL {
+    border: 2px solid rgb(57, 141, 210);
+}
+
 
 @media screen and (max-width:992px) {
     header .upNav {
