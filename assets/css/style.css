@@ -13,14 +13,14 @@ body {
 }
 
 .bg {
-    background-image: url(./../img/hero_blog_elem_PBL_Literacy_photo_iStock_1500076413_Drazen-Zigic.webp);
+    background-image: url(./../img/pexels-pixabay-159823.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 .bg1 {
-    background-image: url(./../img/ZDk3NzFkZTEtMDJhMS00ZWNiLWEzNDctY2U5YmRlMzIzYTg0_22d9a208-5607-4691-bec2-242c2b0a6bda_large-popular-post-2.avif);
+    background-image: url(./../img/hero_blog_elem_PBL_Literacy_photo_iStock_1500076413_Drazen-Zigic.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -36,7 +36,7 @@ body {
 }
 
 .navbar.scrolled {
-    background-color: black;
+    background-color: rgb(37, 54, 110);
 }
 
 .section-title {
@@ -54,7 +54,7 @@ body {
     border-radius: 50%;
 }
 
-.Instructor, .course {
+.Instructor, .course, .school {
     margin-top: 100px;
     background-color: rgba(216, 213, 213, 0.2);
 }
@@ -63,7 +63,7 @@ body {
     bottom: 20px;
 }
 
-.image1 {
+.image1, video {
     max-width: 100%;
     height: auto;
 }
@@ -72,7 +72,7 @@ body {
     width: 320px;
 }
 
-.def1 {
+.def1, .anW {
     width: 392px;
 }
 
@@ -86,7 +86,7 @@ body {
     margin-right: 10px;
 }
 
-.btn {
+.btn, .btn1 {
     width: 150px;
 }
 
@@ -100,14 +100,33 @@ body {
     margin-left: 20px;
 }
 
-.btn1 {
-    width: 150px;
-}
-
 .btnL {
     border: 2px solid rgb(57, 141, 210);
 }
 
+video {
+    box-shadow: 80px -50px aliceblue;
+}
+
+.card-text1, .lag {
+    width: 250px;
+}
+
+.p1 {
+    width: 530px;
+}
+
+.img {
+    border-radius: 50%;
+}
+
+.choImg {
+    width: 500px;
+}
+
+.topW, .an, .anW {
+    margin-left: 20px;
+}
 
 @media screen and (max-width:992px) {
     header .upNav {
@@ -122,17 +141,24 @@ body {
     .image {
         margin: auto;
         margin-top: 20px;
-
     }
-
 }
 
 @media screen and (max-width:768px) {
-    .navbar-toggler {
+    .navbar-toggler, video {
         margin-top: 40px;
     }
 
     .navbar-brand {
         margin-top: 30px;
+    }
+
+    video {
+        box-shadow: none;
+    }
+
+    .card {
+        margin: auto;
+        margin-top: 10px;
     }
 }
