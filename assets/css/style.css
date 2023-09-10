@@ -147,8 +147,8 @@ video {
         width: auto;
     }
 
-    .navbar-toggler-icon, .navbar-toggler {
-        margin-left: 20px;
+    .navbar-toggler {
+        margin-right: 50px;
     }
 }
 
