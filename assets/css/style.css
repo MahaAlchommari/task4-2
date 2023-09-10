@@ -146,6 +146,10 @@ video {
     .anW, .def {
         width: auto;
     }
+
+    .navbar-toggler {
+        margin-right: 10px;
+    }
 }
 
 @media screen and (max-width:768px) {
@@ -166,7 +170,7 @@ video {
         margin-top: 10px;
     }
 
-    .def {
+    .anW {
         margin-left: 0px;
     }
 }
