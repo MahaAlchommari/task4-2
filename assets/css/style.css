@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 
-
+body {
+    overflow-x: hidden;
+}
 
 .blue {
     background-color: rgba(41, 87, 185, 0.608);
@@ -31,6 +33,7 @@
 .navbar {
     top: 6.8%;
     z-index: 200;
+    width: 100%;
 }
 
 .navbar.scrolled, .sidebar {
@@ -127,10 +130,6 @@ video {
 }
 
 @media screen and (max-width:992px) {
-    body {
-        overflow-x: hidden;
-    }
-
     header .upNav {
         justify-content: center;
         /* font-size: 15px; */
@@ -145,12 +144,16 @@ video {
         margin-top: 20px;
     }
 
-    .anW, .def {
+    .anW, .def, .def1 {
         width: auto;
     }
 
     .navbar-toggler {
         margin-right: 50px;
+    }
+
+    .eve {
+        flex-wrap: wrap;
     }
 
 }
@@ -173,7 +176,7 @@ video {
         margin-top: 10px;
     }
 
-    .anW {
+    .topW, .anW {
         margin-left: 0px;
     }
 }
