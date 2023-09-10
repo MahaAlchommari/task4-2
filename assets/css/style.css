@@ -35,7 +35,7 @@ body {
     z-index: 200;
 }
 
-.navbar.scrolled {
+.navbar.scrolled, .sidebar {
     background-color: rgb(37, 54, 110);
 }
 
@@ -63,7 +63,7 @@ body {
     bottom: 20px;
 }
 
-.image1, video {
+.image1, video, .choImg {
     max-width: 100%;
     height: auto;
 }
@@ -141,6 +141,10 @@ video {
     .image {
         margin: auto;
         margin-top: 20px;
+    }
+
+    .anW {
+        width: auto;
     }
 }
 
