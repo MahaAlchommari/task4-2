@@ -33,7 +33,7 @@ body {
 .navbar {
     top: 6.8%;
     z-index: 200;
-    width: 100%;
+    width: 100vw;
 }
 
 .navbar.scrolled, .sidebar {
