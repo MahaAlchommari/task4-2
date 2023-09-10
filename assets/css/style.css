@@ -87,6 +87,27 @@ body {
     margin-right: 10px;
 }
 
+.carl::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(./../img/calendar.png);
+    background-size: contain;
+    margin-right: 10px;
+}
+
+.ad::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(./../img/user.png);
+    background-size: contain;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
 .btn, .btn1 {
     width: 150px;
 }
@@ -129,6 +150,23 @@ video {
     margin-left: 20px;
 }
 
+.img-fluid {
+    max-height: 250px;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.cole {
+    box-shadow: 12px 12px 16px 0 rgb(122, 122, 122);
+}
+
+.member-info {
+    margin-left: 20px;
+
+}
+
+
 @media screen and (max-width:992px) {
     body {
         overflow-x: hidden;
@@ -160,9 +198,14 @@ video {
         flex-wrap: wrap;
     }
 
+
 }
 
 @media screen and (max-width:768px) {
+    body {
+        overflow-x: hidden;
+    }
+
     .navbar-toggler, video {
         margin-top: 40px;
     }
