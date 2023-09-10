@@ -4,9 +4,7 @@
     box-sizing: border-box;
 }
 
-body {
-    overflow-y: hidden;
-}
+
 
 .blue {
     background-color: rgba(41, 87, 185, 0.608);
@@ -129,6 +127,10 @@ video {
 }
 
 @media screen and (max-width:992px) {
+    body {
+        overflow-y: hidden;
+    }
+
     header .upNav {
         justify-content: center;
         /* font-size: 15px; */
@@ -150,6 +152,7 @@ video {
     .navbar-toggler {
         margin-right: 50px;
     }
+
 }
 
 @media screen and (max-width:768px) {
