@@ -128,7 +128,7 @@ video {
 
 @media screen and (max-width:992px) {
     body {
-        overflow: hidden;
+        overflow-x: hidden;
     }
 
     header .upNav {
