@@ -165,4 +165,8 @@ video {
         margin: auto;
         margin-top: 10px;
     }
+
+    .def {
+        margin-left: 0px;
+    }
 }
