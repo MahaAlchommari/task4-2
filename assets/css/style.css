@@ -130,6 +130,10 @@ video {
 }
 
 @media screen and (max-width:992px) {
+    body {
+        overflow-x: hidden;
+    }
+
     header .upNav {
         justify-content: center;
         /* font-size: 15px; */
