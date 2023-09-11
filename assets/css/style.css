@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .blue {
     background-color: rgba(41, 87, 185, 0.608);
 }
@@ -35,6 +39,8 @@
 .navbar.scrolled, .sidebar {
     background-color: rgb(37, 54, 110);
 }
+
+
 
 .section-title {
     margin-top: 100px;
@@ -185,21 +191,39 @@ video {
         flex-wrap: wrap;
     }
 
+    .navbar-toggler {
+        margin-top: 60px;
+    }
+
+    .navbar-brand {
+        margin-top: 50px;
+    }
+
+    .navbar-toggler.scrolled, .navbar-brand.scrolled {
+        margin-top: 0px;
+
+    }
 
 }
 
 @media screen and (max-width:768px) {
-
-    .navbar-toggler, video {
-        margin-top: 40px;
+    .navbar-toggler {
+        margin-top: 80px;
     }
 
     .navbar-brand {
-        margin-top: 30px;
+        margin-top: 70px;
+    }
+
+    .navbar-toggler.scrolled, .navbar-brand.scrolled {
+        margin-top: 0px;
+
     }
 
     video {
         box-shadow: none;
+        margin-top: 40px;
+
     }
 
     .card {
