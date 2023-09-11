@@ -165,9 +165,8 @@ video {
 
 
 @media screen and (max-width:992px) {
-
-    header .upNav {
-        justify-content: center;
+    .upNav {
+        justify-content: center !important;
     }
 
     .navbar-toggler {
@@ -181,10 +180,6 @@ video {
 
     .anW, .def, .def1 {
         width: auto;
-    }
-
-    .navbar-toggler {
-        margin-right: 50px;
     }
 
     .eve {
@@ -207,13 +202,6 @@ video {
 }
 
 @media screen and (max-width:768px) {
-    .navbar-toggler {
-        margin-top: 80px;
-    }
-
-    .navbar-brand {
-        margin-top: 70px;
-    }
 
     .navbar-toggler.scrolled, .navbar-brand.scrolled {
         margin-top: 0px;
