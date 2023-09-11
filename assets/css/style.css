@@ -163,6 +163,10 @@ video {
     width: 250px;
 }
 
+.accordion-item {
+    border-bottom: none !important;
+}
+
 
 @media screen and (max-width:992px) {
     .upNav {
@@ -202,6 +206,14 @@ video {
 }
 
 @media screen and (max-width:768px) {
+
+    .navbar-toggler {
+        margin-top: 80px;
+    }
+
+    .navbar-brand {
+        margin-top: 60px;
+    }
 
     .navbar-toggler.scrolled, .navbar-brand.scrolled {
         margin-top: 0px;
