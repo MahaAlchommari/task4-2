@@ -173,10 +173,6 @@ video {
         justify-content: center !important;
     }
 
-    .navbar-toggler {
-        margin-top: 20px;
-    }
-
     .image {
         margin: auto;
         margin-top: 20px;
@@ -190,30 +186,17 @@ video {
         flex-wrap: wrap;
     }
 
-    .navbar-toggler {
-        margin-top: 60px;
+    .navbar {
+        padding-top: 60px;
     }
 
-    .navbar-brand {
-        margin-top: 50px;
-    }
-
-    .navbar-toggler.scrolled, .navbar-brand.scrolled {
-        margin-top: 0px;
-
+    .navbar.scrolled {
+        padding-top: 0px;
     }
 
 }
 
 @media screen and (max-width:768px) {
-
-    .navbar-toggler {
-        margin-top: 80px;
-    }
-
-    .navbar-brand {
-        margin-top: 60px;
-    }
 
     .navbar-toggler.scrolled, .navbar-brand.scrolled {
         margin-top: 0px;
