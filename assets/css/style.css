@@ -198,11 +198,6 @@ video {
 
 @media screen and (max-width:768px) {
 
-    .navbar-toggler.scrolled, .navbar-brand.scrolled {
-        margin-top: 0px;
-
-    }
-
     video {
         box-shadow: none;
         margin-top: 40px;
