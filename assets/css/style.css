@@ -155,8 +155,8 @@ video {
     background-position: center;
 }
 
-.cole {
-    box-shadow: 12px 12px 16px 0 rgb(122, 122, 122);
+.cole, .card1 {
+    box-shadow: 10px 10px 12px 0 rgb(122, 122, 122);
 }
 
 .pfo {
